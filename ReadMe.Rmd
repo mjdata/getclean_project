@@ -1,6 +1,11 @@
-# ReadMe for Getting and Cleaning Data Course Project
-mjdata  
-July 22, 2015  
+---
+title: "ReadMe for Getting and Cleaning Data Course Project"
+author: "mjdata"
+date: July 22, 2015
+output: 
+  html_document: 
+    keep_md: yes
+---
 
 Getting and Cleaning Data Course Project ReadMe
 
