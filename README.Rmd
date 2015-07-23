@@ -1,5 +1,5 @@
 ---
-title: "ReadMe for Getting and Cleaning Data Course Project"
+title: "README for Getting and Cleaning Data Course Project"
 author: "mjdata"
 date: July 22, 2015
 output: 
@@ -7,9 +7,9 @@ output:
     keep_md: yes
 ---
 
-Getting and Cleaning Data Course Project ReadMe
+Getting and Cleaning Data Course Project README
 
-## Submitted files in the [repo](https://github.com/mjdata/getData_project.git)
+## Submitted files in the [repo](https://github.com/mjdata/getclean_project.git)
 
 - tidy_wide.txt:     A tidy data sets produced by run_analysis.R.
                     It can be read into R with read.table(header=TRUE)
@@ -22,9 +22,9 @@ Getting and Cleaning Data Course Project ReadMe
  
 - CodeBook.md:       Describes the variables, the data, and transformations or                          works performed in run_analysis.R to clean up the data.
 
-- ReadMe.Rmd:        A R Markdown script that creates ReadMe.md 
+- README.Rmd:        A R Markdown script that creates README.md 
 
-- ReadMe.md:         Describes what the script run_analysis.R do and explains how                       the three scripts work and how they are connected.
+- README.md:         Describes what the script run_analysis.R do and explains how                       the three scripts work and how they are connected.
 
 ### Notes
 
@@ -33,13 +33,13 @@ Getting and Cleaning Data Course Project ReadMe
 - Raw data sets are in the folder "./data" with subdirectories "./data/train" and
 "./data/test" under my working directory.
 
-- ReadMe.md and codeBook.md are complement with each other.
+- README.md and codeBook.md are complement with each other.
      
 - The scrips run on Windows 7 (64 bits), R v3.2.1, RStudio, text encoding UTF-8.
      
 - The raw data for the project was downloaded manually from the [url](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) and unzipped into a folder "./data" under my working directory. 
      
-- References cited in CodeBook.md and ReadMe.md include:[1](http://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html), [2](https://github.com/jtleek/datasharing#the-tidy-data-set), [3](https://class.coursera.org/getdata-015/forum/thread?thread_id=27)
+- References cited in CodeBook.md and README.md include:[1](http://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html), [2](https://github.com/jtleek/datasharing#the-tidy-data-set), [3](https://class.coursera.org/getdata-015/forum/thread?thread_id=27)
 
 ## What does the cleaning script run_analysis.R do?  
 
@@ -71,7 +71,7 @@ and each subject.
 **Raw datasets**: A single type of observational unit is spread out over the 
 multiple tables or files:
 
-- 'ReadMe.txt': Information on the raw data sets. 
+- 'README.txt': Information on the raw data sets. 
 
 - 'features_info.txt': Information about the feutures variable  
 
@@ -138,7 +138,7 @@ Notes:  meanFreq() was not meant to be selected, as my understanding.
 -- The original features names are transformed using str_replace{stringr} and 
 str_sub{stringr} in addition to some corrections.
 
- - [CodeBook](https://github.com/mjdata/getData_project.git/CodeBook.md) has a 
+ - [CodeBook](https://github.com/mjdata/getclean_project.git/CodeBook.md) has a 
 detailed description** of the transformed features variabls including the schema 
 of the name construcion levels and their meanings.
 
@@ -187,7 +187,7 @@ activity labels ("walking", "walking_upstairs", "walking_downstairs", "sitting",
 
 #### The new labeling names describe appropriately that the observations in the tidy data sets "tidy_wide.txt" are the mean values of the original 66 features variables averaged over the time windows for each activity and each subject.
 
- - [CodeBook](https://github.com/mjdata/getData_project.git/CodeBook.md) 
+ - [CodeBook](https://github.com/mjdata/getclean_project.git/CodeBook.md) 
  describes in detail how the new lables desribe properly the tidy data sets.
  
 ### 6. Writes the tidy data sets into a file called "tidy_wide.txt" in my working directory using write.table with row.names=FALSE.   
@@ -204,7 +204,7 @@ references [1](http://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.
  - **Each type of observational unit forms a table**:
  - **One file per table, one table per file**
 
- - [CodeBook](https://github.com/mjdata/getData_project.git/CodeBook.md) still 
+ - [CodeBook](https://github.com/mjdata/getclean_project.git/CodeBook.md) still 
  has the specific description of the tidy data file contents.
  
 
