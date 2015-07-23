@@ -1,6 +1,6 @@
 # README for Getting and Cleaning Data Course Project
 mjdata  
-July 22, 2015  
+July 23, 2015  
 
 Getting and Cleaning Data Course Project README
 

@@ -1,6 +1,6 @@
 # Getting and Cleaning Data Course Project Code Book
 mjdata  
-July 22, 2015  
+July 23, 2015  
 
 **Getting and Cleaning Data Course Project CodeBook**:   
 
