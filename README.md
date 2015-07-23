@@ -4,10 +4,12 @@ July 22, 2015
 
 Getting and Cleaning Data Course Project README
 
-## Submitted files in the [repo](https://github.com/mjdata/getclean_project.git)
+## Submitted files 
 
 - tidy_wide.txt:     A tidy data sets produced by run_analysis.R.
                     It can be read into R with read.table(header=TRUE)
+
+The following five files are submitted in the [repo](https://github.com/mjdata/getclean_project.git)
 
 - run_analysis.R:    Cleans and combines the raw data sets, then generates 
                     a tidy data text file "tidy_wide.txt" that meets the 
